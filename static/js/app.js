@@ -94,7 +94,7 @@ function init(){
 init();
 
 // Create options function
-function newOption(newSample){
+function optionChanged(newSample){
     createCharts(newSample);
     metaData(newSample);
 };
